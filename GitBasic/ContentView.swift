@@ -11,10 +11,10 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink("Create a story") {
+                NavigationLink("Create a story here ") {
                     DefinitionView(title: "Create a story", definition: "My story is on the Whiteboard")
                 }
-                NavigationLink("Version Control") {
+                NavigationLink("Version Control 101") {
                     DefinitionView(title: "Version Control", definition: "Version control is a system that records changes to a file or set of files over time.")
                 }
                 NavigationLink("Git Glossary") {
